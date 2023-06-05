@@ -17,6 +17,7 @@ public class main {
         }else {
             System.out.println("This is not a number");
         }
+        System.out.println("\" " + input + "\": " + StringUtils.isNumeric(input));
         System.out.println("Original String: " + input);
         System.out.println("Flipped Case: " + input.toUpperCase());
         System.out.println("Reversed: \"" + StringUtils.reverse(input) + "\"");
